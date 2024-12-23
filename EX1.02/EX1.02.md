@@ -1,6 +1,6 @@
-1. Docker build . -t python_server
+1. Docker build . -t pythonserver
 2. k3d cluster create -a 1
-3. kubectl create deployment pythonserver --image=python_server
+3. kubectl create deployment pythonserver --image=pythonserver
 4. k3d image import pythonserver
 5. kubectl edit deployment pythonserver
 4. kubectl get pods
